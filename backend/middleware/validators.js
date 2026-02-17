@@ -17,7 +17,7 @@ exports.taskValidation = [
 
   body("status")
     .optional()
-    .isIn(["Not-Started", "Completed" , "Ongoing"])
+    .isIn([ "Completed" , "Pending"])
     .withMessage("Invalid status value"),
 ];
 

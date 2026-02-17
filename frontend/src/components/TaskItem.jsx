@@ -109,9 +109,9 @@ export default function TaskItem({ task, refresh }) {
               onChange={handleChange}
               className="border p-2 w-full mb-4 rounded"
             >
-              <option>Not-Started</option>
+              
               <option>Completed</option>
-              <option>Ongoing</option>
+              <option>Pending</option>
             </select>
 
             <div className="flex justify-between">
